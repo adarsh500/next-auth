@@ -24,9 +24,9 @@ export const authOptions = {
             }
             return token
         },
-        pages: {
-            signIn: 'login'
-        },
+        // pages: {
+        //     signIn: 'login'
+        // },
         async session({ session, token }: any) {
            
             // Send properties to the client, like an access_token from a provider.
